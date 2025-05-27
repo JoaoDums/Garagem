@@ -7,4 +7,4 @@ class Modelo(models.Model):
     def __str__(self):
         if self.marca == None:
             return f"{self.marca} {self.nome.upper()}"
-        return f"{self.marca.upper()} {self.nome.upper()}"
+        return f"{self.marca.upper()}, {self.nome.upper()}"
