@@ -4,3 +4,6 @@ class Cor(models.Model):
     descricao = models.CharField(max_length=40)
     def __str__(self):
         return self.descricao
+    class Meta:
+        verbose_name = "Cor"
+        verbose_name_plural = "Cores"
