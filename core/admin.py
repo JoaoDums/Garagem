@@ -10,6 +10,7 @@ from core import models
 
 admin.site.register(models.Acessorio)
 admin.site.register(models.Cor)
+admin.site.register(models.Modelo)
 
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
